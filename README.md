@@ -148,5 +148,5 @@ It can also be set via the command line with ```-Drequirejs.optimize.skip=true``
 
 ## Thanks
 
-requirejs-maven-plugin is a fork from the great work done by [mcheely](https://github.com/mcheely/requirejs-maven-plugin).
+requirejs-maven-plugin is a fork from the great work done by [bringking](https://github.com/bringking/requirejs-maven-plugin).
 However, as I still needed this project, I started building on it.
