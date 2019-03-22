@@ -90,7 +90,7 @@ Just add the plugin to your pom:
 Uses the r.js optimizer to aggregate and minify your project. Dependencies should be defined using
 the Asynchronous Module Definition pattern, see the RequireJS documentation at:
 
-http://requirejs.org
+https://requirejs.org
 
 The "optimize" goal is by default attached to the "process-classes" maven phase. It will go through
 all the js modules you have listed in your project configuration file, interpret the AMD dependencies
@@ -100,14 +100,14 @@ your output directory.
 Optimization is configured using a json project configuration file. For details of the options available,
 see the RequireJS optimization documentation at:
 
-http://requirejs.org/docs/optimization.html#wholeproject
+https://requirejs.org/docs/optimization.html#wholeproject
 
 ### Plugin Options
 
 **optimizerParameters**
 
 A set of parameters to add to the optimizer command line.  See the rules here
-[RequireJS optimizer basics](http://requirejs.org/docs/optimization.html#basics) But in a nutshell,
+[RequireJS optimizer basics](https://requirejs.org/docs/optimization.html#basics) But in a nutshell,
 anything added here will be combined with the config file, with the config file winning conflicts. This should allow
 you to make your build config file more generic and pass in maven project properties during executions.
 
